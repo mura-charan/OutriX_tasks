@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Anytime!", "Glad I could help."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?"],
+      "responses": ["I am your AI Chatbot!", "You can call me ChatBuddy!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?"],
+      "responses": ["I was created recently, I'm pretty young!", "Age doesn't matter for AI 😎"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "Can you help me?", "I need assistance"],
+      "responses": ["Of course! What do you need help with?", "I'm here to assist you."]
+    }
+  ]
+}
